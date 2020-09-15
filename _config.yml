@@ -1,0 +1,86 @@
+# Site settings
+title: Bhavya Khandelwal # site title
+description: >- # site description
+  A personal portfolio website for Bhavya Khandelwal. GitHub: 
+    <a href="https://github.com/bhavyakh" target="_blank" rel="noopener">@bhavyakh</a>.
+lang: en-US # default lang
+timezone: Asia/Kolkata # set your timezone
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+repo: https://github.com/bhavyakh/bhavyakh.github.io # site repo [optional]
+mode: dark # default theme "dark" | "light"
+
+# Profile settings
+author:
+  name: Bhavya Khandelwal # author name
+  bio: >- # tell to the world
+    Hello! I'm a sophomore at Thapar Institute of Engineering & Technology, majoring in Computer Engineering. 
+    Check out my <a href="https://github.com/bhavyakh" target="_blank" rel="noopener">@GitHub,</a>
+    <a href="https://linkedin.com/in/bhavyakh" target="_blank" rel="noopener">@LinkedIn,</a> or
+    <a href="https://bhavyakh.github.io" target="_blank" rel="noopener">@Resume.</a>
+  username: bhavyakh # author username
+  github: bhavyakh
+  twitter: bhavyakh
+  facebook: bhavyakh
+  email: mail@bhavya.co
+  avatar: /assets/img/avatar.jpg
+
+# Url settings
+url: "https://bhavya.co"
+baseurl:
+permalink: /:title/
+google_analytics:
+fb_appid:
+
+# Collection setting
+collections:
+  posts:
+    output: true
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Build settings
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-postfiles
