@@ -2,14 +2,15 @@
 
 This is where my personal website and blog exist, built with a minimalist Jekyll theme called Klisé, which you can find
 <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">here</a>.<br>
-My website is live at <a href="https://uditmalik.me" target="_blank" rel="noopener">uditmalik.me</a>
+My website is live at <a href="https://bhavyakh.co" target="_blank" rel="noopener">uditmalik.me</a>
 
 ## Installation
-To use the original theme, run a local server first:
+To use the theme, run a local server first:
 
 ```bash
-git clone https://github.com/piharpi/jekyll-klise.git
-cd jekyll-klise
+git clone https://github.com/bhavyakh/bhavyakh.github.io.git
+cd bhavyakh.github.io
+sudo apt-get install ruby-dev
 bundle install
 bundle exec jekyll serve
 ```
