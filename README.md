@@ -17,10 +17,6 @@ bundle exec jekyll serve
 
 Navigate to `localhost:4000`, and you're ready to go.
 
-## Contributing
-
-If you see any typos or formatting errors in a post, or want to contribue theme ideas or just about anything to this website, please do not hesitate to open a pull request and fix it! You can read [contributing](./CONTRIBUTING.md) for instructions on how to contribue.
-
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
