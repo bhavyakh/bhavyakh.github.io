@@ -16,16 +16,16 @@ author:
     Hello! I'm a sophomore at Thapar Institute of Engineering & Technology, majoring in Computer Engineering. 
     Check out my <a href="https://github.com/bhavyakh" target="_blank" rel="noopener">@GitHub,</a>
     <a href="https://linkedin.com/in/bhavyakh" target="_blank" rel="noopener">@LinkedIn,</a> or
-    <a href="https://bhavya.co/resume.html" target="_blank" rel="noopener">@Resume.</a>
+    <a href="https://bhavyakh.github.io/resume.html" target="_blank" rel="noopener">@Resume.</a>
   username: bhavyakh # author username
   github: bhavyakh
   twitter: bhavyakh
   facebook: bhavyakh
-  email: mail@bhavya.co
+  email: bhavyakh.github.io
   avatar: /assets/img/avatar.jpeg
 
 # Url settings
-url: "https://bhavya.co"
+url: "https://bhavyakh.github.io"
 baseurl:
 permalink: /:title/
 google_analytics:
